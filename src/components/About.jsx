@@ -5,19 +5,19 @@ const About = () => {
   return (
     <div name='about' className='w-full h-screen bg-white text-gray-300'>
         <div className='flex flex-col justify-center items-center w-full h-full'>
-            <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
-                <div className='sm:text-right pt-24 py-8 pl-4'>
+            <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8 bg-white'>
+                <div className='sm:text-right pt-12 py-8 pl-4'>
                     <p className='text-4xl font-bold inline text-[#8892b0] border-b-4 border-[#5CE1E6]'>
                         About Me
                     </p>
                 </div>
                 <div></div>
             </div>
-                <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-                    <div className='sm:text-right text-4xl font-bold text-[#ccd6f6]'>
+                <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 bg-white'>
+                    <div className='sm:text-right text-4xl font-bold text-[#ccd6f6] bg-white'>
                         <p>I'm Dacey, nice to meet you! Please take a look around.</p>
                         <div className='py-6 pl-40'>
-                        <img src={Headshot} alt="Headshot" style={{height: '414px'}} className='rounded-lg shadow-lg shadow-[#040c16]'/> 
+                        <img src={Headshot} alt="Headshot" className='size-fit sm:size-32 rounded-lg shadow-lg shadow-[#040c16]'/> 
                         </div>
                         
                     </div>
