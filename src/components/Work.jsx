@@ -5,16 +5,16 @@ import GG from '../assets/gg2.png'
 
 const Work = () => {
   return (
-    <div name='work' className='w-full md:h-screen text-gray-300 bg-white'>
+    <div name='work' className='w-full md:h-full text-gray-300 bg-white'>
         <div className='max-w-[1000px] mx-auto pt-12 flex flex-col justify-center w-full h-full'>
 
-            <div className='pb-8'>
+            <div className='pb-8 mx-4'>
                 <p className='text-4xl font-bold inline border-b-4 text-[#8892b0] border-[#5dc8cb]'>Work</p>
                 <p className='text-[#abaaaa] pt-4 pb-0'>Check out some of the projects I've worked on recently:</p>
             </div>
 
             {/* container */}
-            <div className='grid sm:grid-cols-1 md:grid-cols-3 gap-4 pb-24'>
+            <div className='mx-2 grid sm:grid-cols-1 md:grid-cols-3 gap-4 pb-24'>
                {/* grid item */}
                 <div 
                     style={{backgroundImage: `url(${GG})`}}
