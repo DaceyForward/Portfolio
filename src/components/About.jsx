@@ -17,8 +17,8 @@ const About = () => {
                 <div className=' w-full grid sm:grid-cols-2 gap-8 px-4 bg-white'>
                     <div className='sm:text-right text-4xl pl-12 font-bold text-[#ccd6f6] bg-white'>
                         <p>I'm Dacey, nice to meet you! Please take a look around.</p>
-                        <div className='py-6 pl-40'>
-                        <img src={Headshot} alt="Headshot" className='size-fit rounded-lg shadow-lg shadow-[#040c16]'/> 
+                        <div className='py-6 pl-80'>
+                        <img src={Headshot} alt="Headshot" className='size-fit max-w-80 max-h-96 rounded-lg shadow-lg shadow-[#040c16]'/> 
                         </div>
                         
                     </div>
